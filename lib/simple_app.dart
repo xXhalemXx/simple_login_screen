@@ -11,7 +11,7 @@ class SimpleApp extends StatelessWidget {
       designSize: const Size(390, 844),
       minTextAdapt: true,
       splitScreenMode: true,
-      builder: (context, ch) => const MaterialApp(
+      builder: (context, _) => const MaterialApp(
         debugShowCheckedModeBanner: false,
         initialRoute: RoutesName.initial,
         // onGenerateRoute: AppRoute.generate,
@@ -19,3 +19,4 @@ class SimpleApp extends StatelessWidget {
     );
   }
 }
+// fake push
